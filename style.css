@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f8fa;
+    background-color: #1da1f2;
   }
   
   .login-container {
@@ -38,7 +38,7 @@ body {
   }
   
   input[type="text"], input[type="password"] {
-    width: 100%;
+    width: 92%;
     padding: 12px;
     margin-bottom: 18px;
     border: 1px solid #ccd6dd;
